@@ -1,3 +1,3 @@
-class KindSerializer < ActiveModel::Serializer
+class AddressSerializer < ActiveModel::Serializer
   attributes :id, :street, :city
 end
